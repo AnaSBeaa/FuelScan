@@ -24,10 +24,6 @@ export default function Header() {
                 </p>
               </div>
             </div>
-
-            <span className="rounded-full border border-[#9fffcb]/20 bg-[#9fffcb]/10 px-3 py-1.5 text-xs font-medium text-[#9fffcb]">
-              Sistema ativo
-            </span>
           </div>
 
           {/* Descrição */}
