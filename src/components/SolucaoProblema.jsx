@@ -14,9 +14,8 @@ export default function SolucaoProblema() {
           Do problema à solução
         </h2>
 
-        <p className="mx-auto mt-3 max-w-2xl text-slate-600">
-          Entenda o desafio que motivou a criação do Sentinela
-          Combustível e como nossa proposta busca enfrentá-lo.
+        <p className="mx-auto mt-3 max-w-3xl text-slate-600">
+          Entenda o desafio que motivou a criação do FuelScan e como nossa proposta busca enfrentá-lo.
         </p>
       </div>
 
