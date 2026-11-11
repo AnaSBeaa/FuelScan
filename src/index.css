@@ -1,1 +1,34 @@
+
 @import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  /* Paleta FuelScan */
+  --color-brand-50: #F0F8F6;
+  --color-brand-500: #25A18E;
+  --color-brand-600: #004E64;
+  --color-brand-700: #003B4D;
+
+  --color-ink: #16343A;
+
+  --color-fuel-blue: #00A5CF;
+  --color-fuel-green: #9FFFCB;
+  --color-fuel-mint: #7AE582;
+}
+
+body {
+  @apply bg-brand-50 text-ink antialiased;
+}
+
+/* Foco visível para navegação por teclado */
+:focus-visible {
+  outline: 3px solid #00A5CF;
+  outline-offset: 3px;
+}
+
+/* Seleção de texto */
+::selection {
+  background-color: #9FFFCB;
+  color: #004E64;
+}

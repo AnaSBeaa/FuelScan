@@ -8,25 +8,26 @@ export const LIMITES_PADRAO = {
 
 export const COMBUSTIVEIS = ['Gasolina comum', 'Gasolina aditivada', 'Gasolina premium']
 
+// A chave precisa ser igual ao valor que classificarLeitura() devolve em `status`.
 // Cada status tem texto + ícone + cor, para não depender só da cor (acessibilidade).
 export const STATUS = {
   normal: {
     rotulo: 'Normal',
     icone: '✔',
-    classes: 'bg-emerald-100 text-emerald-900 border-emerald-400',
-    cor: '#059669',
+    classes: 'bg-[#9FFFCB] text-[#004E64] border-[#25A18E]',
+    cor: '#25A18E',
   },
   suspeita: {
     rotulo: 'Suspeita',
     icone: '!',
-    classes: 'bg-amber-100 text-amber-900 border-amber-400',
-    cor: '#d97706',
+    classes: 'bg-[#00A5CF]/15 text-[#004E64] border-[#00A5CF]',
+    cor: '#00A5CF',
   },
   adulterada: {
-    rotulo: 'Adulterada',
+    rotulo: 'Fora do padrão',
     icone: '✖',
-    classes: 'bg-red-100 text-red-900 border-red-400',
-    cor: '#dc2626',
+    classes: 'bg-[#004E64]/10 text-[#004E64] border-[#004E64]',
+    cor: '#004E64',
   },
 }
 
@@ -34,5 +35,5 @@ export const FILTROS_STATUS = [
   { valor: 'todos', rotulo: 'Todas' },
   { valor: 'normal', rotulo: 'Normais' },
   { valor: 'suspeita', rotulo: 'Suspeitas' },
-  { valor: 'adulterada', rotulo: 'Adulteradas' },
+  { valor: 'adulterada', rotulo: 'Fora do padrão' },
 ]
