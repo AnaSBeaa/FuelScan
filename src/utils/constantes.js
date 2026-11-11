@@ -21,13 +21,13 @@ export const STATUS = {
     rotulo: 'Suspeita',
     icone: '!',
     classes: 'bg-[#00A5CF]/15 text-[#004E64] border-[#00A5CF]',
-    cor: '#00A5CF',
+    cor: '#EAB308',
   },
   adulterada: {
     rotulo: 'Fora do padrão',
     icone: '✖',
     classes: 'bg-[#004E64]/10 text-[#004E64] border-[#004E64]',
-    cor: '#004E64',
+    cor: '#EF4444',
   },
 }
 
