@@ -116,5 +116,5 @@ O uso de ferramentas de IA durante o desenvolvimento está documentado em [`AI.m
 
 ## Deploy
 
-_Link da aplicação publicada:_ <URL>
+_Link da aplicação publicada:_ <https://fuel-scan.vercel.app/>
 
