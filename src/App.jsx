@@ -16,6 +16,8 @@ import { useLeituras } from './hooks/useLeituras'
 import { useLocalStorage } from './hooks/useLocalStorage'
 import { apiConfigurada } from './services/api'
 import { LIMITES_PADRAO } from './utils/constantes'
+import SolucaoProblema from './components/SolucaoProblema'
+
 
 export default function App() {
   const { leituras, carregando, salvando, erro, carregar, criar, atualizar, remover } =
@@ -55,6 +57,7 @@ export default function App() {
       <Header apiConfigurada={apiConfigurada} />
 
       <main className="mx-auto max-w-6xl space-y-6 px-4 py-6">
+        <SolucaoProblema />
         {erro && <MensagemErro mensagem={erro} onTentarNovamente={carregar} />}
 
         <ResumoCards contagem={filtros.contagem} />
