@@ -18,8 +18,7 @@ export default function ConfigLimites({ limites, onChange }) {
     <details className="rounded-xl bg-white p-5 shadow-sm">
       <summary className="cursor-pointer text-lg font-bold">Limites de classificação</summary>
       <p className="mt-2 text-sm text-slate-600">
-        Valores de referência didáticos. Ajuste conforme a pesquisa do grupo; eles ficam salvos
-        neste navegador.
+        Valores de referência didáticos.
       </p>
       <div className="mt-4 grid gap-4 sm:grid-cols-2">
         {CAMPOS.map((c) => (
